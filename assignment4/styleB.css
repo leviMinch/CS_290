@@ -1,0 +1,50 @@
+body{
+    background-color: #ffebcd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+
+table {
+    border: 3px solid grey;
+    text-align: right;
+}
+td { 
+    border: 1px solid blue;
+}
+
+th {
+    background-color: #8badf1;
+    border: 1px solid blue;
+    padding-left: 50px;
+
+}
+
+#beaver-store{
+    color: green;
+}
+
+#o{
+    color: orange;
+    font-size: 100px;
+}
+#s{
+    font-size: 100px;
+    display: block;
+    padding-left: 80px;
+}
+#u{
+    color: grey;
+    font-size: 100px;
+    padding-left: 160px;
+}
+p{
+    color: green;
+}
+caption{
+    color: green;
+    font-weight: bold;
+    padding-bottom: 10px;
+}

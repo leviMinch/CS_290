@@ -1,0 +1,29 @@
+body{
+    background-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: green;
+}
+
+th, td { 
+    border: 1px solid blue;
+    color: green;
+}
+
+#beaver-store{
+    color: green;
+}
+
+#o{
+    color: orange;
+    font-size: 100px;
+}
+#s{
+    font-size: 100px;
+}
+#u{
+    color: grey;
+    font-size: 100px;
+}
