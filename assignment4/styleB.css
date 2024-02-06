@@ -5,6 +5,7 @@ body{
 
 h1{
     color: green;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 table {
@@ -48,3 +49,20 @@ caption{
     font-weight: bold;
     padding-bottom: 10px;
 }
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+    box-shadow: 0 0px 20px 0 rgba(0,0,0,0.2);
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    padding: 10px;
+}
+button:hover{
+    background: lightcoral;
+}
+a{
+    color:rgb(239, 0, 239);
+}
+a:visited{
+    color: rgb(184, 94, 184);
+}  
