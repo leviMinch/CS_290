@@ -1,0 +1,116 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: lightblue;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.info {
+  border: 10px solid darkcyan;
+  padding: 15px;
+  background-color: palegoldenrod;
+  color: darkcyan;
+  text-align: left;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-nav {
+  font-size: 25px;
+  text-align: left;
+}
+
+/* Apply this CSS in your App.css or a specific CSS file for your component */
+
+table {
+  width: 90%; /* Adjust based on your layout */
+  margin: 20px auto; /* Center the table and add some margin */
+  border-collapse: collapse; /* Remove space between borders */
+  background-color: rgb(128, 211, 215); /* Light blue background, adjust color as needed */
+  border: 6px solid darkgray; 
+}
+
+table th, table td {
+  text-align: right; /* Align text to the left */
+  padding: 12px; /* Add padding to table cells */
+  border: 2px solid #ddd; /* Light grey border */
+  font-size: 16px; /* Adjust font size as needed */
+  color: black;
+}
+
+table th {
+  background-color: #3b75bb;
+}
+
+.quant {
+  background-color: transparent; /* Remove background */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor to pointer */
+  font-size: 1.5rem; /* Larger font size for buttons */
+  vertical-align: middle; /* Align vertically with text */
+}
+
+
+button {
+  background-color: #4ca5af; /* Green background */
+  color: white; /* White text */
+  padding: 10px 25px; /* Top and bottom padding, left and right padding */
+  text-align: center; /* Center the text inside */
+  text-decoration: none; /* Remove underlines from links */
+  display: inline-block; /* Allow width and height to be set */
+  margin: 4px 2px; /* Some margin */
+  cursor: pointer; /* Change mouse cursor to pointer */
+  border: none; /* Remove border */
+  border-radius: 25px; /* Rounded corners */
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s; /* Smooth transition for hover and click effects */
+  font-size:20px;
+}
+
+button:hover {
+  background-color: #4ca5af; /* Darker shade of green */
+  box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2); /* Add a shadow when hovering */
+}
+
+input[type=text], input[type=email] {
+  background-color: palegoldenrod;
+  color: darkcyan;
+  width: 100%;
+  padding: 5px;
+  padding-left: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  font-size: 25px;
+  border: 3px solid darkcyan;
+  border-radius: 15px;
+}
+
