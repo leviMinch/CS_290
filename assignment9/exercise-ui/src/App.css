@@ -1,0 +1,227 @@
+body {
+  font-family: Arial, sans-serif; 
+  margin: 1; 
+  padding: 1; 
+  background-color: #f2f2f2; 
+}
+/* Container */
+.App {
+  max-width: 1000px; 
+  margin: 0 auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 20px; 
+  min-height: calc(100vh - 100px); /* 100px = 50px (header) + 50px (footer) */
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 40px);
+}
+
+footer{
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+}
+
+
+/* Header */
+.header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+/* Navigation Tabs */
+.nav-tabs {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.nav-tabs a {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/* Form Styling */
+.form-section {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.form-section input[type='text'],
+.form-section input[type='number'],
+.form-section select,
+.form-section input[type='date'] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-section button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Arial, sans-serif; 
+}
+
+/* Button Styling for Edit and Delete in Table */
+.edit-btn,
+.delete-btn {
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Arial, sans-serif; 
+}
+
+.edit-btn {
+  background-color: #4CAF50; /* Green */
+}
+
+.delete-btn {
+  background-color: #f44336; /* Red */
+}
+
+.Nav-Bar{
+  text-align: center;
+}
+.link-button {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block; /* This makes it possible to apply padding and width/height */
+  text-align: center; /* Ensures text is centered */
+  font-family: Arial, sans-serif; 
+}
+
+.link-button:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #247527;
+}
+
+#exercises {
+  width: 100%; /* Makes the table take up the full width of its container */
+  border-collapse: collapse; /* Removes the space between the borders */
+  margin-top: 20px; /* Adds some space above the table */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
+}
+
+#exercises th, #exercises td {
+  text-align: left; /* Aligns text to the left */
+  padding: 12px; /* Adds padding inside each cell */
+  border-bottom: 1px solid #ddd; /* Adds a border below each row */
+}
+
+#exercises th {
+  background-color: #4CAF50; /* Gives a colored background to the header */
+  color: white; /* Changes the text color in the header to white */
+}
+
+
+#exercises tr:hover {
+  background-color: #ddd; /* Changes the background color of rows on hover for better interactivity */
+}
+
+#exercises td button {
+  padding: 6px 12px; /* Adds some padding around the text in buttons */
+  margin-right: 4px; /* Adds a small margin to the right of buttons */
+  border: none; /* Removes the default border from buttons */
+  border-radius: 4px; /* Adds rounded corners to buttons */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+  font-family: Arial, sans-serif; 
+}
+
+#exercises .edit-btn {
+  background-color: #f0ad4e; /* Assigns a specific color to edit buttons */
+  color: white;
+}
+
+#exercises .delete-btn {
+  background-color: #d9534f; /* Assigns a specific color to delete buttons */
+  color: white;
+}
+
+.iconButton {
+  cursor: pointer;
+}
+
+.form-container {
+  max-width: 600px; /* Adjust based on your needs */
+  margin: 0 auto;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 10px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  justify-content: flex-start; /* Align items to the start, this applies to label-input pairs */
+  align-items: center;
+  padding: 10px 0;
+}
+
+
+.form-row > label {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 10px; /* Space between label and input */
+  text-align: right; /* Align the text to the right */
+  font-weight: bold;
+}
+
+.form-row > input,
+.form-row > select {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 5px 10px;
+  width: 100%; /* Makes the input fill the cell */
+  box-sizing: border-box; /* Ensures padding does not affect the width */
+  font-family: Arial, sans-serif; 
+}
+
+.form-row > button {
+  display: table-cell;
+  vertical-align: right;
+  padding: 5px 10px;
+  width: 100%; /* Makes the input fill the cell */
+  box-sizing: border-box; /* Ensures padding does not affect the width */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: Arial, sans-serif; 
+}
+
+/* If you want to style the input and select elements the same */
+input, select {
+  border: 2px solid #ccc;
+  border-radius: 5px; /* Optional: adds rounded corners */
+  font-family: Arial, sans-serif; 
+}
+
+/* Adjust the spacing and alignment as needed */
+
